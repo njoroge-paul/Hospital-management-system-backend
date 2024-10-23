@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify, current_app
 from db import db
-import requests
+#import requests
 from models import Transaction, Bill
 import base64
 from datetime import datetime
